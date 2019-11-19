@@ -16,6 +16,9 @@
         </div>
         <ul class="header-menus">
           <li>
+            現在ログインしているユーザーのid: <%= session[:user_id]%>
+          </li>
+          <li>
             <%= link_to("TweetAppとは","/about")%>
           </li>
           <li>
@@ -29,6 +32,9 @@
           </li>
           <li>
             <%= link_to("新規登録","/users/signup")%>
+          </li>
+          <li>
+            <%= link_to("ログイン","/users/login")%>
           </li>
         </ul>
     </header>
