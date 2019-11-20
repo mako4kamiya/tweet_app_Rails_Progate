@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* reset ================================ */
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -173,7 +174,8 @@ header {
   max-width: 600px;
   margin: 0 auto;
   background-color: white;
-  box-shadow: 0 2px 6px #c1ced7;
+  -webkit-box-shadow: 0 2px 6px #c1ced7;
+          box-shadow: 0 2px 6px #c1ced7;
 }
 
 .form-heading {
@@ -239,3 +241,4 @@ header {
   border-radius: 0 0 2px 2px;
   font-size: 14px;
 }
+/*# sourceMappingURL=home.css.map */
